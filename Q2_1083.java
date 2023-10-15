@@ -1,3 +1,7 @@
+/* NAME: SHAHID ABDUL FARHAD
+ * REGD. NO.: 2341006002
+ * PS LINK:  https://cses.fi/problemset/task/1083
+ */
 package CodexStart_2341006002;
 import java.util.*;
 class Q2_1083
