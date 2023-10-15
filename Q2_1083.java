@@ -13,7 +13,7 @@ class Q2_1083
             int n = in.nextInt();
             int m = n-1;
             int a[]=new int [m];
-            int i,j,x=1;
+            int i,j,x=1,flg=0;
             //ENTER NOS. 1 TO N
             System.out.println("Enter nos. between 1 and "+n);
             for(i=0;i<m;i++)
@@ -39,10 +39,16 @@ class Q2_1083
                 if(x!=a[i])
                 {
                     System.out.print(x+" ");
-                    break;
+                    flg=1;
                 }
+                if(flg==1)
+                break;
+                
                 x++;
             }
+            System.out.println(n);
+            
+
         }
 
     }
