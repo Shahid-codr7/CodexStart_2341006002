@@ -7,27 +7,26 @@ public class Q1_1068
 {
     public static void main(String[] args) 
     {
-
-    Scanner sc = new Scanner (System.in);
-    int n;        
-    System.out.println("Enter a no.=");
-    n=sc.nextInt();
-    while(n!=1)
-        {
+        Scanner sc = new Scanner (System.in);
+        int n;        
+        n=sc.nextInt();
+        WeirdAlgo(n);
+    }
+    public static void WeirdAlgo(long n)
+    {
         System.out.print(n+" ");
+        if(n==1)
+        return;
         if(n%2==0)
-            {
-             n=n/2;
-            }
-        else
-           {
+        {
+            n=n/2;
+        }
+        else if(n%2!=0)
+          {
             n=n*3;
             n=n+1;
-           }
         }
-        System.out.print(n);
+      WeirdAlgo(n);
+
     }
-
-
 }
-    
