@@ -11,6 +11,7 @@ public class Q1_1068
         int n;        
         n=sc.nextInt();
         WeirdAlgo(n);
+        sc.close();
     }
     public static void WeirdAlgo(long n)
     {
