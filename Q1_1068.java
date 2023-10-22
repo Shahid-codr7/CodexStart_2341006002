@@ -30,4 +30,5 @@ public class Q1_1068
       WeirdAlgo(n);
 
     }
+    
 }

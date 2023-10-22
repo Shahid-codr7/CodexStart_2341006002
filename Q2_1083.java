@@ -24,6 +24,7 @@ class Q2_1083
             }
             System.out.println(s1-s);
         }
+        
     }
             
             
