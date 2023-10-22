@@ -1,6 +1,6 @@
 package CodexStart_2341006002;
 import java.util.*;
-public class Q4_1069
+public class Q4_1094
 {
     public static void main(String[] args) 
     {
